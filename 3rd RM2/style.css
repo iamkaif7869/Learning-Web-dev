@@ -1,0 +1,22 @@
+body{
+    padding: 0px;
+    background-color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+}
+pre{
+    border: 2px, solid;
+    padding: 50px;
+    background-color: rgb(253, 166, 166);
+
+    /* font-style: italic; */
+}
+img{
+    border: 5px, solid, rgb(1, 139, 139);
+    border-radius: 15px;
+}
+a{
+    border: 2px, solid, black;
+    padding: 10px;
+    border-radius: 10px;
+}

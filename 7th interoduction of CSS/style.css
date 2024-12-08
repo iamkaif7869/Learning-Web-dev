@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.box {
+    color: brown;
+    margin: 10px;
+    padding: 20px;
+    border: 10px, solid, green;
+    font-size: large;
+    font-family: Playwrite HR Lijeva, cursive;
+    border-radius: 10px;
+}
+
+#heading {
+    padding: 50px;
+    text-align: center;
+    border: 2px, solid, black;
+    margin: 10px;
+    font-family: Edu Australia VIC WA NT Hand Arrows, Playwrite HR Lijeva, cursive;
+}
+
+.box1 {
+    text-align: right;
+    text-decoration: underline;
+}

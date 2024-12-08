@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    padding: 5px;
+    text-align: center;
+    border: 5px, solid, maroon;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+nav h1{
+    font-family: "Playwrite Hrvatska Lijeva", Bebas Neue, sans-serif;
+    font-style: normal;
+}
+
+div p{
+    color: rgb(74, 74, 74);
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+div{
+    background-color: rgb(255, 255, 255);
+}
+
+div:hover{
+    background-color: rgb(255, 214, 244);
+}
+
+#para1:hover{
+    font-size: large;
+    color: rgb(255, 255, 255);
+    border: 2px, solid, rgb(0, 87, 163);
+    padding: 20px;
+    background-color: black;
+}
