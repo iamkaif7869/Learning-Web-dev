@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Noto+Sans+KR:wght@100..900&family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navlist {
+    display: inline-block;
+    padding: 6px 20px 0 20px;
+    background-color: black;
+    color: white;
+    height: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Noto Sans KR", sans-serif;
+    ;
+}
+
+.navlist:hover {
+    background-color: rgb(99, 87, 0);
+}
+
+
+ul:first-child {
+    padding-left: 7px;
+}
+
+.navbar {
+    background-color: rgb(229, 210, 5);
+    height: 40px;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+}
+
+/* body work */
+
+.main-body-container {
+    text-align: center;
+    padding-top: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    color: rgb(91, 91, 0);
+    display: inline-block;
+    border: 2px solid rgb(0, 0, 0);
+    width: 48%;
+    border-radius: 10px;
+}
+
+.container h1 {
+    text-align: left;
+    padding: 10px 0px 0px 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+
+.container p {
+    padding: 10px 15px 10px 20px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container1 {
+    margin-right: 5px;
+}
+
+/* under body container */
+
+.under-body-container {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.under-body-container-element {
+    /* border: 2px solid black; */
+    /* border-radius: 10px; */
+    /* margin: 20px 30px 10px 30px; */
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgb(255, 255, 0);
+
+}
+
+.under-body-container-element h1 {
+    text-align: left;
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.under-body-container-element p {
+    text-align: left;
+    padding: 10px 0 0;
+}
+
+footer {
+    background-color: black;
+    height: 500px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-family: cursive;
+    font-size: 10px;
+}
+
+.chatbot {
+    width: 75px;
+    height: 75px;
+    position: fixed;
+    top: 80vh;
+    left: 80vw;
+    z-index: 1;
+
+}
+
+.chatbot:hover{
+    box-shadow: 0px 0px 25px rgb(166, 178, 0);
+}

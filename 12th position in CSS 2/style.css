@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    border: 3px solid maroon;
+    margin: 5px;
+}
+
+.box{
+    border: 2px solid darkblue;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.box:hover{
+    box-shadow: 0px 0px 2cap grey;
+}
+
+.box1{
+    background-color: rgb(193, 255, 174);
+    height: 200px;
+}
+
+.box2{
+    background-color: blanchedalmond;
+    height: 200px;
+    position: sticky;
+    top: 100px;
+    z-index: 1;
+}
+
+.box3{
+    background-color: rgb(180, 237, 249);
+    height: 200px;
+}
+
+.box4{
+    background-color: rgb(249, 165, 212);
+    height: 200px;
+}
+
+.para{
+    margin: 10px;
+}
+
+#para-span{
+    position: sticky;
+    top: 100px;
+}
+
+#para-span:hover{
+    background-color: rgb(253, 201, 201);
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+    color: white;
+}

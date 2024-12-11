@@ -1,0 +1,12 @@
+.main-bax{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.box{
+    border: 2px solid red;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
+}
