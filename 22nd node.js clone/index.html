@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node JS clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="navigation-bar">
+
+            <!-- Logo -->
+
+            <div class="main-logo">
+                <img class="nodejs-logo"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRgfZ2sG6xWL_Ag0kASTIytHshA2F419syVg&s">
+            </div>
+
+            <!-- navigation bar start from here -->
+
+            <div class="container-for-nav">
+                <div class="nav-button-container">
+                    <ul>
+                        <li class="nav-button">Learn</li>
+                        <li class="nav-button">About</li>
+                        <li class="nav-button">Download</li>
+                        <li class="nav-button">Blog</li>
+                        <li class="nav-button">Docs</li>
+                        <li class="nav-button">Contribute</li>
+                        <li class="nav-button">Certification</li>
+                    </ul>
+                </div>
+
+                <div class="right-side-navbar">
+                    <div class="seachbar-div">
+                        <button type="button" class="searchbox">
+
+                            <!-- <svg class="search-icon-seachbox" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20"
+                            viewBox="0 0 50 50">
+                            <path
+                                d="M 21 3 C 11.601563 3 4 10.601563 4 20 C 4 29.398438 11.601563 37 21 37 C 24.355469 37 27.460938 36.015625 30.09375 34.34375 L 42.375 46.625 L 46.625 42.375 L 34.5 30.28125 C 36.679688 27.421875 38 23.878906 38 20 C 38 10.601563 30.398438 3 21 3 Z M 21 7 C 28.199219 7 34 12.800781 34 20 C 34 27.199219 28.199219 33 21 33 C 13.800781 33 8 27.199219 8 20 C 8 12.800781 13.800781 7 21 7 Z">
+                            </path>
+                        </svg> -->
+
+                            <div class="icons8-search"></div>
+                            Start typing...
+                            <div class="searchbox-right-portion">
+                                <pre class="shortcut">Ctrl K</pre>
+                            </div>
+                        </button>
+                    </div>
+
+                    <!-- <div class="right-items-of-navbar bulb-icon-nav"><div>&#9788;</div>
+                    <div class="right-items-of-navbar language-change-icon-nav"></div>
+                    <div class="right-items-of-navbar github-icon-nab"></div> -->
+
+                </div>
+
+
+
+            </div>
+    </nav>
+
+    <!-- BODY OF WEBPAGE START FROM HERE -->
+
+    <main>
+
+        <div class="main-body">
+
+
+            <!-- LEFT BODY BOX -->
+
+
+            <div class="left-part-of-body">
+
+                <a href="https://www.google.com" target="_blank" class="left-part-of-body-top-bottom">
+                    <span class="left-part-of-body-top-bottom-read">Read</span>
+                    <span class="left-part-of-body-top-bottom-message">Node.js Collab submitt Report</span>
+                </a>
+
+                <div class="left-part-of-body-center">
+                    <h1 class="left-part-of-body-center-heading">Run JawaScript Everywhere</h1>
+
+                    <p class="left-part-of-body-center-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Esse velit error mollitia et id autem eum eligendi quaerat doloribus, blanditiis,
+                        perferendis harum doloremque, veniam exercitationem laborum qui sequi itaque tempora.</p>
+                </div>
+
+                <!-- BOTTOM PART OF LEFT POTION INCLAUDE DONWLOAD BOTTOM -->
+
+                <div class="left-part-of-body-bottom-part">
+                    <a class="left-part-of-body-bottom-part-bottom" href=:''https://www.google.com"; target="_blank">
+
+                        <span>Download Node.js [LTS]</span>
+
+                        <svg class="download-logo" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke-width="1.5" stroke="white" aria-hidden="true" data-slot="icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M12 9.75v6.75m0 0-3-3m3 3 3-3m-8.25 6a4.5 4.5 0 0 1-1.41-8.775 5.25 5.25 0 0 1 10.233-2.33 3 3 0 0 1 3.758 3.848A3.752 3.752 0 0 1 18 19.5H6.75Z">
+                            </path>
+                        </svg>
+                    </a>
+
+                    <p class="left-part-of-body-bottom-part-under-download-bottom">Downloads Node.js v22.12.01 with
+                        long-term support. Node.js can also be installed via
+
+                        <a href="#" class="left-part-of-body-bottom-part-under-download-bottom-span">package
+                            managers.</a>
+
+                    </p>
+
+                    <p class="left-part-of-body-bottom-part-bottom-part">Want new features sooner? Get Node.js v23.4.01
+                        instead.</p>
+
+                </div>
+
+            </div>
+
+
+            <div class="right-part-of-body">
+
+                <div class="right-part-of-body-box">
+                    <div class="code-box">
+                        <ul>
+                            <li class="code-box-navlist">Create an HTTP Server</li>
+                            <li class="code-box-navlist">Write tests</li>
+                            <li class="code-box-navlist">Read and Hash a file</li>
+                        </ul>
+
+                        <div class="code-of-code-box">
+                            <pre>
+
+1.  // server.mjs
+2. import { createServer } from 'node:http';
+3.
+4. const server = createServer((req, res) => {
+5.   res.writeHead(200, { 'Content-Type': 'text/plain' });
+5.   res.end('Hello World!\n');
+7. });
+8. // starts a simple http server locally on port 3000
+9. server.listen(3000, '127.0.0.1', () => {
+10.   console.log('Listening on 127.0.0.1:3000');
+11. });
+12. // run with `node server.mjs
+                            </pre>
+
+
+                        </div>
+
+                        <div class="bottom-code-box">
+                            <p>JavaScript</p>
+                            <span class="copy-bottom-of-code-box">
+
+                                Copy to Clipboard
+                            </span>
+                        </div>
+
+
+
+                    </div>
+
+                    <p class="right-part-of-body-box-buttom-text">Learn more what Node.js is able to offer with our
+                      <a class="left-part-of-body-bottom-part-under-download-bottom-span"> Learning materials</a> .</p>
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>
